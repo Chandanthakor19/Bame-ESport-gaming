@@ -1,0 +1,648 @@
+.b{ border: 5px solid red}
+.bb{ border: 5px solid rgb(76, 0, 255)}
+.by{ border: 5px solid rgb(157, 255, 0)}
+.section-1{
+    height: 70px;
+    position: fixed;
+    z-index: 11111111111111;
+}
+.section-1-navbar{
+    height: 100vh;
+    width: 80px !important;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: rgba(27, 26, 26, 0.759);
+    z-index: 11111111111111111111111111 !important;
+}
+.search-btn:hover{
+    transition: .3s linear !important ;
+    background-color: red !important;
+    border: 0;
+}
+.section-1-navbar ul li {
+    /* text-decoration: none; */
+   
+    list-style: none;
+    /* mask-image: url(commando-list-bg.svg);
+    mask-size: 100% 100%; */
+    /* padding: 10px 20px; */
+    position: relative;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.section-1-navbar ul li i {
+        
+    font-size: 20px;
+    /* border: 2px solid rebeccapurple; */
+    border-radius: 60%;
+    /* background-color: rgba(0, 0, 0, 0.492); */
+    transition: all .1s linear ;
+    margin-top: 12px !important;
+    
+
+}
+.section-1-navbar ul li:after {
+    content: '';
+    position: absolute;
+    inset: -25px -30px -30px -30px;
+    background: url(commando-list-bg.svg);
+    background-size: cover;
+    z-index: -2;
+
+}
+.section-1-navbar ul li i:hover{
+    transition: all .1s linear ;
+    color: red !important;
+    
+}
+li.homehover{
+    position: relative;
+}
+.home1{
+    background-color: rgb(31, 30, 30);
+    color: white;
+    top: 10px;
+    right: -90px ;
+    position: absolute;
+    padding: 10px 20px ;
+    opacity: 0;
+    z-index: -1;
+}
+.home1:nth-child(3){
+    right: -140px !important;
+    
+}
+li.homehover:hover .home1{
+    opacity: 1;
+    transition: .3s linear;
+    z-index: 11111111111111111111 !important;
+}
+
+input::placeholder{
+    color: white !important;
+}
+.section-1-responsive-navbar ul li {
+    list-style: none;
+
+}
+.section-1-responsive-navbar ul li a {
+    text-decoration: none;
+    
+
+}
+.section-2{
+    background-color: rgba(0, 0, 0, 0.998);
+}
+.section-2-col-left{
+    height: 750px;
+}
+.input-div input{
+    /* background: yellow !important; */
+       transition: .3s linear !important;
+
+}
+.input-div input:hover{
+    transition: .3s linear !important;
+    background-color: white !important;
+    color: black !important;
+}
+.input-div :nth-child(2):hover{
+    transition: .3s linear !important;
+    background-color: red !important;
+    color: rgb(245, 242, 242) !important;
+}
+
+.section-2-col-right{
+    height: 750px;
+}
+.section-3{
+    background-color: rgb(23, 23, 38);
+    /* width: 1900px !important; */
+    overflow: hidden;
+    /* flex: 0 100px; */
+}
+.section-3-card{
+    /* width: 290px !important; */
+    height: 250px;
+    animation-name: cardslide;
+    animation-duration: 25s;
+    animation-iteration-count: infinite;
+    
+}
+.section-4{
+    background-color: #0B0E13;
+}
+.section-4-col-top{
+    height: 300px;
+}
+.section-4-col-mid {
+    height: 800px;
+}
+.section-4-col-mid img{
+    width: 1300px !important;
+}
+
+.section-4-col-low{
+    height: 300px;
+}
+.section-4-col-card{
+    height: 290px ;
+}
+.section-5{
+    background-color: #1A1D26;
+}
+.section-5-col-left{
+    height: 600px;
+}
+.section-5-col-right{
+    height: 600px;
+}
+.section-5-col-right img{
+    width: 560px !important;
+}
+.text{
+    width: 500px;
+}
+.line{
+    width: 100%;
+    height: 3px;
+    background-color: black;
+    position: relative;
+    overflow: hidden;
+  }
+ 
+  .line:before{
+    content: '';
+    width: 88%;
+    height: 100%;
+    background-color: red;
+    position: absolute;
+    top: 0;
+    transition: .4s linear;
+    left: -78%;
+  }
+  .section-5:hover .line:before{
+    left: 0;
+    transition: .4s linear;
+  }
+.line2{
+    width: 100%;
+    height: 3px;
+    background-color: black;
+    position: relative;
+    overflow: hidden;
+  }
+ 
+  .line2:before{
+    content: '';
+    width: 88%;
+    height: 100%;
+    background-color: red;
+    position: absolute;
+    top: 0;
+    transition: .4s linear;
+    left: -78%;
+  }
+  .section-5:hover .line2:before{
+    left: 0;
+    transition: .4s linear;
+  }
+  .line3{
+    width: 100%;
+    height: 3px;
+    background-color: black;
+    position: relative;
+    overflow: hidden;
+  }
+ 
+  .line3:before{
+    content: '';
+    width: 19%;
+    height: 100%;
+    background-color: red;
+    position: absolute;
+    top: 0;
+    transition: .4s linear;
+    left: -78%;
+  }
+  .section-5:hover .line3:before{
+    left: 0;
+    transition: .4s linear;
+  }
+  .section-6{
+     height: 630px;
+     background-color:#0B0E13;
+  }
+  .section-6-col-left{
+    background-color: #1A1D26;
+    height: 500px;
+    --p: 50px; /* control the shape (can be percentage) */
+    /* height: 180px; */
+    /* aspect-ratio: 3/2;
+    clip-path: polygon(var(--p) 0,100% 0,calc(100% - var(--p)) 100%,0 100%); */
+    /* background: #D95B43; */
+  }
+  .input-contact:hover{
+    transition: .3s linear !important;
+    background-color: white !important;
+    color: black !important;
+
+  }
+  .section-6-col-right{
+    background-color:transparent;
+    height: 500px;
+  }
+  .section-6-col-right input{
+     background-color: black;
+     color: white;
+     padding: 15px 25px;
+  }
+  .section-7{
+    height: 600px;
+    background-color:#0B0E13;
+  }
+  .section-7-card{
+    height: 450px;
+    width: 280px !important;
+    animation-name: cardslide-7;
+    animation-duration: 25s;
+    animation-iteration-count: infinite;
+    position: relative;
+    overflow: hidden;
+  }
+  .section-7-card img{
+    width: 250px !important;
+  }
+  .card-7-text{
+    width:220px !important;
+    height: 50px;
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+    transition: .3s linear;
+    opacity: 0;
+    transform: translateY(60px);
+  }
+  .section-7-card:hover .card-7-text{
+    opacity: 1;
+    transform: translateY(0px);
+    transition: .3s linear;
+  }
+  .section-7-card span{
+    border: 2px solid rgb(247, 245, 245);
+     padding: 10px 20px;
+     border-radius: 50px;
+     position:absolute ;
+     display: flex; 
+     align-items: center;
+     justify-content: center;
+     opacity: 0;
+  }
+.section-7-card:hover span{
+    opacity: 1;
+    transition: .3s linear;
+}
+  .playborder{
+    width: 100%;
+    height: 100%;
+    border: 2px solid rgba(255, 255, 255, 0.452);
+    border-radius: 50%;
+    scale: 1.1;
+    animation-name: playbtn;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+  }
+  .playborder:nth-child(2){
+    animation-delay: 1.5s;
+  }
+  .section-8{
+    background-color:#0B0E13;
+  }
+  .section-8-col-top{
+    height: 250px;
+  }
+  .section-8-card{
+    height: 500px;
+    animation-name: cardslide-8;
+    animation-duration: 16s;
+    animation-iteration-count: infinite;
+  }
+  .section-8-card-div{
+    height: 430px ;
+    width: 330px;
+    border-radius: 20px;
+  }
+  .section-8-card-top{
+    height: 50%;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: .3s linear;
+    
+  }
+  .section-8-card-top img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* border-radius: 20px; */
+    transition: .3s linear;
+    
+  }
+  .section-8-card-top:hover img  {
+    transition: .3s linear;
+    scale: 1.1;
+  }
+  .section-8-card-low{
+    height: 50%;
+    
+  }
+  .section-8-card-low h1{
+    /* font-size: 30px !important; */
+      color: white;
+      transition: .3s linear;
+  }
+  .section-8-card-low:hover h1{
+    transition: .3s linear;
+    color: red !important;
+    /* border-bottom: 2px solid red; */
+
+  }
+  .section-9{
+    background-color:#0B0E13;
+  }
+  .section-9-col-top{
+    height: 200px;
+    border-top: 2px solid rgb(170, 161, 161);
+    border-bottom: 2px solid rgb(170, 161, 161);
+  }
+  .span-icon i:hover {
+    transition: .3s linear !important;
+    color: white !important;
+
+  }
+  .section-9-side{
+    height: 180px;
+  }
+  .section-9-col-lower{
+    height: 250px;
+  }
+  .section-9-col-lower input{
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+  }
+  .sub-input{
+    width: 350px !important;
+  }
+
+
+  @keyframes playbtn{
+    0%{
+        scale: 1.1;
+        opacity: 1;
+    }
+    100%{
+        scale: 1.6;
+        opacity: 0;
+    }
+  }
+  @keyframes cardslide-8{
+    0%{
+        transform: translateX(0);
+    }
+    27%{
+        transform: translateX(0);
+    }
+    33%{
+        transform: translateX(-100%);
+    }
+    60%{
+        transform: translateX(-100%);
+    }
+    66%{
+        transform: translateX(-200%);
+    }
+    90%{
+        transform: translateX(-200%);
+    }
+    99%{
+        transform: translateX(-300%);
+    }
+    100%{
+        transform: translateX(-300%);
+    }
+   
+  
+  }
+
+  @keyframes cardslide-7{
+    0%{
+        transform: translateX(0);
+    }
+    20%{
+        transform: translateX(0);
+    }
+    25%{
+        transform: translateX(-100%);
+    }
+    40%{
+        transform: translateX(-100%);
+    }
+    50%{
+        transform: translateX(-200%);
+    }
+    60%{
+        transform: translateX(-200%);
+    }
+    75%{
+        transform: translateX(-300%);
+    }
+    90%{
+        transform: translateX(-300%);
+    }
+    100%{
+        transform: translateX(-400%);
+    }
+  
+  }
+@keyframes cardslide {
+    0%{
+        transform: translateX(0);
+    }
+    9%{
+        transform: translateX(0);
+    }
+    11%{
+        transform: translateX(-100%);
+    }
+    20%{
+        transform: translateX(-100%);
+    }
+    22%{
+        transform: translateX(-200%);
+    }
+    31%{
+        transform: translateX(-200%);
+    }
+    33%{
+        transform: translateX(-300%);
+    }
+    42%{
+        transform: translateX(-300%);
+    }
+    44%{
+        transform: translateX(-400%);
+    }
+    53%{
+        transform: translateX(-400%);
+    }
+    55%{
+        transform: translateX(-500%);
+    }
+    64%{
+        transform: translateX(-500%);
+    }
+    66%{
+        transform: translateX(-600%);
+    }
+    75%{
+        transform: translateX(-600%);
+    }
+    77%{
+        transform: translateX(-700%);
+    }
+    85%{
+        transform: translateX(-700%);
+    }
+    88%{
+        transform: translateX(-800%);
+    }
+    98%{
+        transform: translateX(-800%);
+    }
+    100%{
+        transform: translateX(-900%);
+    }
+}
+@media only screen and (max-width: 820px) {
+    .section-2-col-left{
+        height: 400px;
+    }
+    .section-2-col-right{
+        height: 600px;
+        position: relative;
+    }
+    .section-2-col-right img{
+        width: 450px !important ;
+        position: absolute;
+        top: auto !important;
+        left: auto !important;
+     }
+     .section-6{
+        height: 850px !important;
+    }
+     .section-6-col-left{
+        height: 400px !important;
+        /* border: 2px solid rebeccapurple; */
+
+    }
+    .section-6-col-right{
+        height: 350px !important;
+        /* border: 2px solid rebeccapurple; */
+    }
+     
+}
+@media only screen and (max-width: 600px) {
+    /* For mobile phones: */
+   
+    .section-2-col-left{
+        height: 480px;
+    }
+    .section-2-col-left h1{
+        font-size: 40px !important;
+    }
+    .input-div{
+        width: auto;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .input-div input{
+        padding: 10px 15px !important;
+        margin-top: 20px;
+    }
+    .section-2-col-right{
+        height: 550px;
+        position: relative;
+    }
+     .section-2-col-right img{
+        width: 450px !important ;
+        position: absolute;
+        top: 50px !important;
+        left: 10px !important;
+     }
+     .section-4-col-top{
+        height: auto !important;
+     }
+     .section-4-col-mid{
+        height: 300px;
+     }
+     .section-4-col-mid img{
+        width: 450px !important;
+     }
+     .section-4-col-low {
+        height: 420px;
+     }
+     .section-4-col-card{
+        height: 200px ;
+    }
+    .section-4-col-card h1{
+        font-size: 40px !important;
+
+    }
+    .section-5-col-left{
+        height: auto !important;
+        /* padding-top: auto !important; */
+    }
+    .section-5-col-right{
+        height: 450px;
+    }
+    .section-5-col-right img{
+        width: 400px !important;
+    }
+    .section-6{
+        height: 850px !important;
+    }
+    .section-6-col-left{
+        height: 400px !important;
+    }
+    .section-6-col-right{
+        height: 350px !important;
+    }
+    .section-6-col-right span{
+        width: 500px !important;
+        /* padding: 10px 20px; */
+    }
+    .section-6-col-right input{
+        padding: 10px 15px !important;
+    }
+    .section-8-col-top{
+        height: auto !important;
+    }
+    .section-9-col-top{
+        height: 400px;
+      }
+      
+      .section-9-side{
+        height: 130px;
+      }
+      .section-9-col-lower{
+        height: 280px;
+      }
+  }
+
+ 
